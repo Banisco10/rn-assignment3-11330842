@@ -74,6 +74,7 @@ export default function Category() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginBottom: 80
   },
   header: {
     marginTop: 10,
@@ -82,7 +83,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   headerTitle: {
-    fontSize: 20,
+    fontSize: 25,
     fontWeight: 'bold',
     color: '#000000',
   },
