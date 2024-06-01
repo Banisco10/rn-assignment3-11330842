@@ -9,10 +9,10 @@ This project is a task management application built with React Native and Expo. 
 - **Ongoing Task**: List of ongoing tasks using FlatList.
 
 ## Screenshots
-![Screenshot1](components\icons\image1.jpeg)
-![Screenshot2](components\icons\image2.jpeg)
-![Screenshot3](components\icons\image3.jpeg)
-![Screenshot4](components\icons\image4.jpeg)
+![Screenshot1](./components/icons/image1.jpeg)
+![Screenshot2](./components/icons/image2.jpeg)
+![Screenshot3](./components/icons/image3.jpeg)
+![Screenshot4](./components/icons/image4.jpeg)
 
 
 ## Student ID
