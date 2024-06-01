@@ -25,15 +25,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'left',
     justifyContent: 'space-between',
-    padding: 10,
-    height: 52,
-    width: 354,
+    padding: 20,
+    height: 100,
+    width: 344,
     marginTop: 20,  
-    marginBottom: 50
+    marginBottom: 50,
+    borderWidth: 1,
+    marginLeft: 10,
+
   },
   sectionContainer: {
     height: 52,
     width: 170,
+    
   },
   welcomeMessage: {
     fontSize: 30,
@@ -42,7 +46,7 @@ const styles = StyleSheet.create({
     textAlign: 'left'
   },
   tasksMessage: {
-    fontSize: 12,
+    fontSize: 15,
     color: 'black',
     textAlign: 'left'
   },
