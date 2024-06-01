@@ -1,28 +1,28 @@
 import React, { Component } from 'react'
 import { Text, View, StyleSheet } from 'react-native'
-import Welcome from '../components/Welcome'
-import SearchBar from '../components/SearchBar'
-import { ScrollView } from 'react-native-web'
+import Welcome from '../components/homescreen/Welcome'
+import SearchBar from '../components/homescreen/SearchBar'
 import { SafeAreaView } from 'react-native-safe-area-context'
+import Category from '../components/homescreen/Category'
 
-export class HomeScreen extends Component {
-  render() {
-    return (
-      <SafeAreaView>
+
+export default function HomeScreen() {
+  return (
+    <SafeAreaView>
       <View style={styles.background}>
         <Welcome />
         <SearchBar />
+        <Category />
       </View>
       </SafeAreaView>
-    )
-  }
+  )
 }
 
-export default HomeScreen
 
 const styles = StyleSheet.create({
   background: {
-  backgroundColor: '#FBF9F7',
+  //backgroundColor: 'yellow',
+  width: '100%',
   height: '100%',
   }
 })
